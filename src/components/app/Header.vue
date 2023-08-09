@@ -10,12 +10,12 @@ export default class GlobalHeader extends Vue {
   @Getter('app/headerText') headerText!: string
   @Getter('app/count1') count1!: string
   mounted() {
-    this.$store.dispatch('app/changeHeaderText', 'Vuexが呼ばれた回数: ' + this.count1 + '回')
+    this.$store.dispatch('app/changeHeaderText', 'Vuex1が呼ばれた回数: ' + this.count1 + '回')
   }
 
   @Watch('count1')
   onChangeCount1(value: number) {
-    this.$store.dispatch('app/changeHeaderText', 'Vuexが呼ばれた回数: ' + value + '回')
+    this.$store.dispatch('app/changeHeaderText', 'Vuex1が呼ばれた回数: ' + value + '回')
   }
 }
 </script>
