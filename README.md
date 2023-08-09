@@ -10,35 +10,33 @@
 src
   ├─components
   │  ├─app
-  │  │      Header.vue
-  │  │      Timer.vue
+  │  │   └─ Header.vue
+  │  │   └─ Timer.vue
   │  ├─common
-  │  │      AlignTwoObject.vue
-  │  ├─lib
+  │  │    └─AlignTwoObject.vue
   │  ├─pages
   │  │  └─home
-  │  │      │  Parent.vue
-  │  │      │
+  │  │      └─Parent.vue
   │  │      └─Parent
-  │  │              Child.vue
+  │  │          └─Child.vue
   │  └─ui-library
-  │          CustomButton.vue
+  │        └─CustomButton.vue
   │
   ├─layouts
-  │      default.vue
+  │    └─ default.vue
   │
   ├─pages
-  │      home.vue
+  │   └─home.vue
   │
   ├─store
   │  └─app
-  │          actions.ts
-  │          getters.ts
-  │          mutations.ts
-  │          state.ts
+  │     └─ actions.ts
+  │     └─ getters.ts
+  │     └─ mutations.ts
+  │     └─ state.ts
   │
   └─types
       └─store
           └─app
-                  AppState.ts
+             └─ AppState.ts
 ```
