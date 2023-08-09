@@ -28,7 +28,6 @@ export default class Child extends Vue {
   @Prop({ default: 0, type: Number }) state!: number
   @Prop({ default: 'pink', type: String }) backgroundColor!: string
 
-  @Watch('state', { immediate: true })
   onClick1() {
     this.$store.dispatch('app/count1Up', 1)
   }
@@ -36,8 +35,6 @@ export default class Child extends Vue {
   onClick2() {
     this.$store.dispatch('app/count2Up', 1)
   }
-
-  value = 'fdf'
 }
 </script>
 

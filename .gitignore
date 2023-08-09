@@ -33,3 +33,5 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 nuxt-env.d.ts
+
+.eslintcache

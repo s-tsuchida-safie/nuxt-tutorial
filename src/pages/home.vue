@@ -1,6 +1,5 @@
 <template>
   <div>
-    <div class="Annotation">※子コンポーネントはレンダリングされるたびにコンソール出力</div>
     <div class="Parent">
       <parent />
     </div>
